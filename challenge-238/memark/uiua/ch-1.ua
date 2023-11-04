@@ -1,6 +1,6 @@
 # https://theweeklychallenge.org/blog/perl-weekly-challenge-240/#TASK1
 
-# Uiua 0.0.25
+# Uiua 0.1.0
 
 RunningSum ← \+
 ---
