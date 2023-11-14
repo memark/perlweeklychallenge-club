@@ -2,7 +2,7 @@
 
 # Uiua 0.2.0
 
-CountWords ← /+♭ ⊠≍[⊔] ⊙⊞(⊐↙⧻) .□
+CountWords ← /+≐≍ ⊐∺↙⧻,∶
 ---
 ⍤. =2 CountWords "at" {"pay" "attention" "practice" "attend"}
 ⍤. =3 CountWords "ja" {"janet" "julia" "java" "javascript"}
