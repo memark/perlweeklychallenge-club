@@ -9,3 +9,11 @@ ConsistentStrings ← /+⊞(=0/+-1∊∩⊔)
 ⍤. =7 ConsistentStrings {"a" "b" "c" "ab" "ac" "bc" "abc"} □"abc"
 ⍤. =4 ConsistentStrings {"cc" "acd" "b" "ba" "bac" "bad" "ac" "d"} □"cad"
 ---
+
+ConsistentStringsA ← /+∺(/↧∊⊔∶)
+
+---
+⍤. =2 ConsistentStringsA "ab" {"ad" "bd" "aaab" "baa" "badab"}
+⍤. =7 ConsistentStringsA "abc" {"a" "b" "c" "ab" "ac" "bc" "abc"}
+⍤. =4 ConsistentStringsA "cad" {"cc" "acd" "b" "ba" "bac" "bad" "ac" "d"}
+---
